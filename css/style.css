@@ -35,6 +35,38 @@ header {
     margin: 0 auto;
 }
 
+@media (min-width:576px)
+{
+    .container
+    {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px)
+{
+    .container
+    {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px)
+{
+    .container
+    {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px)
+{
+    .container
+    {
+        max-width: 1152px;
+    }
+}
+
 header nav a {
     color: var(--pure);
     text-decoration: none;
@@ -506,17 +538,7 @@ footer .footer-social i
 }
 
 /* --------------------------------------------------Media query------------------------ */
-@media (max-width:1024px)
-{
-    header #main-nav
-    {
-    display : none;
-    }
-    .scroll-down img
-    {
-        display: block;
-    }
-}
+
 
 .main-site-wrapper
 {
@@ -532,12 +554,12 @@ footer .footer-social i
     z-index: 11;
     outline: none;
     cursor: pointer;
+    display: none;
 
 }
 .scroll-down img
 {
     width: 30px;
-    display: none;
 }
 .mobile-nav
 {
@@ -558,9 +580,6 @@ footer .footer-social i
     transform: translateX(0);
 
 }
-
-
-
 .times
 {
     position: fixed;
@@ -586,4 +605,107 @@ footer .footer-social i
     text-decoration: none;
     font-size: 2rem;
     color:var(--dark);
+}
+
+/*================================================================= Responsiveness=================================== */
+@media (max-width:1024px)
+{
+    header #main-nav
+    {
+    display : none;
+    }
+    .scroll-down
+    {
+        display: block;
+    }
+    .hero .left img 
+    {
+        width: 260px;
+    }
+    .hero .right h1 {
+        font-size: 3rem;
+    }
+    .hero
+    {
+        padding-top: 6rem;
+    }
+    header
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+    }
+    section.about .about-me-img 
+    {
+        height: 360px;
+    }
+    section.services .card-wrapper 
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+    section.work .card-wrapper
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+    section.blog .card-wrapper
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.blog
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 68% 97%, 0 100%);
+    }
+}
+
+@media (max-width:576px)
+{
+    .hero{
+        flex-direction: column;
+    }
+    header
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 93%, 0 100%);
+    }
+    .hero .right
+    {
+        padding: 0.1rem;
+        word-wrap:break-word;
+    }
+    .hero .left
+    {
+        margin-top: -5rem;
+    }
+    .about-inner-wrap
+    {
+        flex-direction: column;
+    }
+    section.about .about-me-img 
+    {
+    transform: translateX(0) !important;
+    }
+    .about .right
+    {
+        text-align: center;
+    }
+    section.services .card-wrapper 
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    section.freelancing {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 90%, 0 100%);
+        padding-bottom: 4rem;
+    }
+    section.work .card-wrapper 
+    {
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    section.contact .card-wrapper
+    {
+
+        grid-template-columns:repeat(1,1fr);
+        margin-top: -6rem;
+    } 
+    section.contact .input-wrap 
+        {
+            grid-template-columns: repeat(1,1fr);
+        }
 }
