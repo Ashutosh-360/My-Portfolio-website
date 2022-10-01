@@ -1,370 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!----------------------------------------- For Linking Font Awesome---------------->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
     <!----------------------------------------------For linking Slider---------------------- -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
 
     <!------------------------------------------ For linking our CSS file ------------------->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <title>Ashutosh Naik</title>
 
     <!--------------------------------------------- For linking Google Fonts----------------------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<!------------------ Body of HTML------------- -->
+  <!------------------ Body of HTML------------- -->
 
-
-<!------------------------------- Navigation/Face portion---------- -->
-<body>
+  <!------------------------------- Navigation/Face portion---------- -->
+  <body>
     <div class="site-main-wrapper">
-        <button class="scroll-down">
-            <img src="./img/hamberger.svg" alt="">
-        </button>
-        <div class="mobile-nav">
-            <button class="times"><img src="./img/times.svg" alt=""></button>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
-
+      <button class="scroll-down">
+        <img src="./img/hamberger.svg" alt="" />
+      </button>
+      <div class="mobile-nav">
+        <button class="times"><img src="./img/times.svg" alt="" /></button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center justify-between">
+              <div class="branding">
+                <img src="./img/logo.svg" alt="logo" />
+              </div>
+              <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#works">Works</a>
+                <a href="#blog">Blog</a>
+              </div>
+            </div>
+            <div class="right">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </nav>
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="./img/me.png" alt="man" />
+            </div>
+            <div class="right flex-1">
+              <h6>Ashutosh Naik</h6>
+              <h1>I'm a Creative <span>Designer</span></h1>
+              <p>
+                I help designers, small agencies and businesses bring their
+                ideas to life. Powered by Songs, VS Code and tea, I turn your
+                requirements into CMS-ified and ecommerce-ified websites - on
+                time and on budget and believe you will love it again and again.
+              </p>
+              <div>
+                <button class="btn btn-secondary">Download CV</button>
+              </div>
+            </div>
+            <a href="#"><img src="./img/facebook.svg" alt="" /></a>
+          </div>
         </div>
-        <header>
-            <div class="container">
-                <nav id="main-nav" class="flex items-center justify-between">
-                    <div class="left flex items-center justify-between">
-                        <div class="branding">
-                            <img src="./img/logo.svg" alt="logo">
-                        </div>
-                        <div class="nav-links">
-                            <a href="#">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#services">Services</a>
-                            <a href="#works">Works</a>
-                            <a href="#blog">Blog</a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <button class="btn btn-primary">Contact</button>
-                    </div>
-                </nav>
-                <div class="hero flex items-center justify-between">
-                    <div class="left flex-1 flex justify-center">
-                        <img src="./img/me.png" alt="man">
-                    </div>
-                    <div class="right flex-1">
-                        <h6>Ashutosh Naik</h6>
-                        <h1>I'm a Creative <span>Designer</span></h1>
-                        <p>I help designers, small agencies and businesses bring their ideas to life. Powered by Songs, VS Code and tea, I turn your requirements into CMS-ified and ecommerce-ified websites - on time and on budget and believe you will love it again and again.</p>
-                        <div>
-                            <button class="btn btn-secondary">Download CV</button>
-                        </div>
-                    </div>
-                    <a href="#"><img src="./img/facebook.svg" alt=""></a>
-                </div>
+      </header>
+
+      <!------------ About Me ---------------->
+
+      <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex-1">
+            <img class="about-me-img" src="./img/me2.jpg" alt="man2" />
+          </div>
+          <div class="flex-1 right">
+            <h2>About <span>Me</span></h2>
+            <h3>Hello I'm Ashutosh</h3>
+            <p>
+              WoW,A whole section for me.Let me tell you who I am.I am Web
+              designer which has a passion for building website and give their
+              clients more than they want.I am very fond of this field and I
+              always try to learn new things.Other than that,what you need to
+              know about me is that I like to eat Biryani a lot, If you want to
+              get your work done by me, feed me with it.I Promise, I want charge
+              you anything.Just Kidding! Cheers.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/_ashutosh_naik/"
+                target="_blank"
+                ><img src="./img/instagram.svg" alt=""
+              /></a>
+              <a href="https://twitter.com/ashutoshnaik60" target="_blank"
+                ><img src="./img/twitter.svg" alt=""
+              /></a>
+              <a href="#"><img src="./img/facebook.svg" alt="" /></a>
+              <a href="#"><img src="./img/pintrest.svg" alt="" /></a>
             </div>
-        </header>
-    
-        <!------------ About Me ---------------->
-    
-        <section id="about" class="about">
-            <div class="container flex items-center about-inner-wrap">
-                <div class="flex-1">
-                    <img class="about-me-img" src="./img/me2.jpg" alt="man2">
-                </div>
-                <div class="flex-1 right">
-                    <h2>About <span>Me</span></h2>
-                    <h3>Hello I'm Ashutosh</h3>
-                    <p>WoW,A whole section for me.Let me tell you who I am.I am Web designer which has a passion for building website and give their clients more than they want.I am very fond of this field and I always try to learn new things.Other than that,what you need to know about me is that I like to eat Biryani a lot, If you want to get your work done by me, feed me with it.I Promise, I want charge you anything.Just Kidding! Cheers.   </p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/_ashutosh_naik/" target="_blank"><img src="./img/instagram.svg" alt=""></a>
-                        <a href="https://twitter.com/ashutoshnaik60" target="_blank" ><img src="./img/twitter.svg" alt=""></a>
-                        <a href="#"><img src="./img/facebook.svg" alt=""></a>
-                        <a href="#"><img src="./img/pintrest.svg" alt=""></a>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!---------------------------------- Our services------------------------ -->
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span>Services</h1>
+          <p>We offers services across the different Web Development area</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="behind-image">
+                <img src="./img/brush.svg" alt="" />
+              </div>
+              <h2>Graphic design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages
+              </p>
             </div>
-        </section>
-        <!---------------------------------- Our services------------------------ -->
-        <section id="services" class="services">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Services</h1>
-                <p>We offers services across the different Web Development area</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="behind-image">
-                            <img src="./img/brush.svg" alt="">
-                        </div>
-                        <h2>Graphic design</h2>
-                        <p>Graphic design is a craft where professionals create visual content to communicate messages</p>
-                    </div>
-                    <div class="card">
-                        <div class="behind-image">
-                            <img src="./img/code.svg" alt="">
-                        </div>
-                        <h2>Web Development</h2>
-                        <p>Web development is the work involved in developing a website for the Internet or an intranet</p>
-                    </div>
-                    <div class="card">
-                        <div class="behind-image">
-                            <img src="./img/bag.svg" alt="">
-                        </div>
-                        <h2>Media Marketing</h2>
-                        <p>Media marketing refers to marketing initiatives that focus on reaching audiences through different types of media outlets</p>
-                    </div>
-                    <div class="card">
-                        <div class="behind-image">
-                            <img src="./img/desktop.svg" alt="">
-                        </div>
-                        <h2>Web Design</h2>
-                        <p>Web design refers to the design of websites that are displayed on the internet</p>
-                    </div>
-                    <div class="card">
-                        <div class="behind-image">
-                            <img src="./img/media.svg" alt="">
-                        </div>
-                        <h2>Media Graphic</h2>
-                        <p>Social media graphics are the visual component of any social post, usually in the form of images, gifs, and video</p>
-                    </div>
-                    <div class="card">
-                        <div class="behind-image">
-                            <img src="./img/mobile-2.svg" alt="">
-                        </div>
-                        <h2>Apps</h2>
-                        <p>Mobile app development is a process for building mobile applications that run on mobile devices</p>
-                    </div>
-                </div>
+            <div class="card">
+              <div class="behind-image">
+                <img src="./img/code.svg" alt="" />
+              </div>
+              <h2>Web Development</h2>
+              <p>
+                Web development is the work involved in developing a website for
+                the Internet or an intranet
+              </p>
             </div>
-        </section>
-        <!-- ---------------------------------------------Freelancing Portion------------------------ -->
-        <section  class="freelancing">
-            <h1>I Am Available For Freelancing</h1>
-            <button class="btn btn-primary">Download CV</button>
-        </section>
-    
-        <!-- ---------------------------------------------Review Section------------------------ -->
-        <section class="reviews">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Client</h1>
-                <p>Checkout what our clients have to say about us</p>
-                <div class="slider">
-                    <div class="slide">
-                        <img src="./img/sagar.JPG" alt="">
-                        <p>Putting together a website is a task, finding the right individual or company is even more complex. I did my search around looking for this particular company that has the ability to create, design and optimized my web site. Thanks God I meet Ashutosh , not only he has great taste in design but he can guide you through the process and beyond.</p>
-                        <span>Sagar Mahajan, ABC Company, India</span>
-                    </div>
-                    <div class="slide">
-                        <img src="./img/kapil.jpeg" alt="">
-                        <p>Great design team and quick turn around on all projects and request. With his help we have improved our google search results.  My company Titan has depended on them for quite sometime now and we have been doing business with them for over 5 years.His web design team is very knowledgeable and they always let us know when a new Google update is coming up before anyone even knows.  If you want a reliable Web Design Person,You Should go for Ashutosh.</p>
-                        <span>Kapil Madankar, XYZ Company, India</span>
-                    </div>
-                    <div class="slide">
-                        <img src="./img/buzz.jpg" alt="">
-                        <p>Ashutosh did a great job of not only creating our website how we wanted it to be, but also gave us great insight on what they believed will help boost sales. Their proven experience and excellence is the reason why our company would recommend Ashutosh to anyone who is looking to create a customized website.</p>
-                        <span>Buzz LightYear, Space Ranger, Andy's Home</span>
-                    </div>
-                    <div class="slide">
-                        <img src="./img/ash.jpg" alt="">
-                        <p>I want to thank Ashutosh for my website. We have been doing business for over 3 years and my website has been doing great. Also thanks for optimizing our "google my business" account you did a great job as I was completely lost on what to do. I would recommend to any one that needs a website created to look no further.  Thanks again Ashutosh</p>
-                        <span>Ash Ketchum, Trainer, Pallet Town</span>
-                    </div>
-                </div>
-                <div class="slider-dots">
-    
-                </div>
+            <div class="card">
+              <div class="behind-image">
+                <img src="./img/bag.svg" alt="" />
+              </div>
+              <h2>Media Marketing</h2>
+              <p>
+                Media marketing refers to marketing initiatives that focus on
+                reaching audiences through different types of media outlets
+              </p>
             </div>
-        </section>
-        <!-- ----------------------Our Works---------------------- -->
-        <section id="works" class="work">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Works</h1>
-                <p>Check out for my works which I have done for people</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web development</a>
-                        </div>
-                        <img src="./img/ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Graphic Design</a>
-                        </div>
-                        <img src="./img/article-ph-1.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Web Design</a>
-                        </div>
-                        <img src="./img/ph-3.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">App development</a>
-                        </div>
-                        <img src="./img/article-ph-2.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Media Marketing</a>
-                        </div>
-                        <img src="./img/ph-2.png" alt="">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="#">Media Graphics</a>
-                        </div>
-                        <img src="./img/article-ph-3.png" alt="">
-                    </div>
-                </div>
+            <div class="card">
+              <div class="behind-image">
+                <img src="./img/desktop.svg" alt="" />
+              </div>
+              <h2>Web Design</h2>
+              <p>
+                Web design refers to the design of websites that are displayed
+                on the internet
+              </p>
             </div>
-        </section>
-    
-        <!-- --------------Our Blog--------------- -->
-        <section id="blog" class="blog">
-            <div class="container">
-                <h1 class="section-heading"><span>Our</span>Blog</h1>
-                <p>I write sometimes about design,   frontend development, learning and life.
+            <div class="card">
+              <div class="behind-image">
+                <img src="./img/media.svg" alt="" />
+              </div>
+              <h2>Media Graphic</h2>
+              <p>
+                Social media graphics are the visual component of any social
+                post, usually in the form of images, gifs, and video
+              </p>
+            </div>
+            <div class="card">
+              <div class="behind-image">
+                <img src="./img/mobile-2.svg" alt="" />
+              </div>
+              <h2>Apps</h2>
+              <p>
+                Mobile app development is a process for building mobile
+                applications that run on mobile devices
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------------------------------Freelancing Portion------------------------ -->
+      <section class="freelancing">
+        <h1>I Am Available For Freelancing</h1>
+        <button class="btn btn-primary">Download CV</button>
+      </section>
+
+      <!-- ---------------------------------------------Review Section------------------------ -->
+      <section class="reviews">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span>Client</h1>
+          <p>Checkout what our clients have to say about us</p>
+          <div class="slider">
+            <div class="slide">
+              <img src="./img/sagar.JPG" alt="" />
+              <p>
+                Putting together a website is a task, finding the right
+                individual or company is even more complex. I did my search
+                around looking for this particular company that has the ability
+                to create, design and optimized my web site. Thanks God I meet
+                Ashutosh , not only he has great taste in design but he can
+                guide you through the process and beyond.
+              </p>
+              <span>Sagar Mahajan, ABC Company, India</span>
+            </div>
+            <div class="slide">
+              <img src="./img/kapil.jpeg" alt="" />
+              <p>
+                Great design team and quick turn around on all projects and
+                request. With his help we have improved our google search
+                results. My company Titan has depended on them for quite
+                sometime now and we have been doing business with them for over
+                5 years.His web design team is very knowledgeable and they
+                always let us know when a new Google update is coming up before
+                anyone even knows. If you want a reliable Web Design Person,You
+                Should go for Ashutosh.
+              </p>
+              <span>Kapil Madankar, XYZ Company, India</span>
+            </div>
+            <div class="slide">
+              <img src="./img/buzz.jpg" alt="" />
+              <p>
+                Ashutosh did a great job of not only creating our website how we
+                wanted it to be, but also gave us great insight on what they
+                believed will help boost sales. Their proven experience and
+                excellence is the reason why our company would recommend
+                Ashutosh to anyone who is looking to create a customized
+                website.
+              </p>
+              <span>Buzz LightYear, Space Ranger, Andy's Home</span>
+            </div>
+            <div class="slide">
+              <img src="./img/ash.jpg" alt="" />
+              <p>
+                I want to thank Ashutosh for my website. We have been doing
+                business for over 3 years and my website has been doing great.
+                Also thanks for optimizing our "google my business" account you
+                did a great job as I was completely lost on what to do. I would
+                recommend to any one that needs a website created to look no
+                further. Thanks again Ashutosh
+              </p>
+              <span>Ash Ketchum, Trainer, Pallet Town</span>
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+      <!-- ----------------------Our Works---------------------- -->
+      <section id="works" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span>Works</h1>
+          <p>Check out for my works which I have done for people</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <a
+                  href="https://ashutosh-360.github.io/Product-Cart/"
+                  target="_blank"
+                  >Product Landing Page</a
+                >
+              </div>
+              <img src="./img/ProductLanding.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <a
+                  href="https://tip-calculator-by-ashutosh-naik.netlify.app/"
+                  target="_blank"
+                  >Tip Calculator</a
+                >
+              </div>
+              <img src="./img/TipCalculator.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <a
+                  href="https://ashutosh-360.github.io/Netflix-Clone/"
+                  target="_blank"
+                  >Netflix Clone</a
+                >
+              </div>
+              <img src="./img/NetflixClone.jpeg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <a
+                  href="https://ashutosh-360.github.io/Job-Listing/"
+                  target="_blank"
+                  >Job Listing</a
+                >
+              </div>
+              <img src="./img/JobListing.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <a
+                  href="https://ashutosh-360.github.io/Testimonial-Section/"
+                  target="_blank"
+                  >Testimonial Grid Section</a
+                >
+              </div>
+              <img src="./img/TestimonialGridSection.jpg" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <a
+                  href="https://ashutosh-360.github.io/Order-Summary/"
+                  target="_blank"
+                  >Order Summary</a
+                >
+              </div>
+              <img src="./img/OrderSummary.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------Our Blog--------------- -->
+      <section id="blog" class="blog">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span>Blog</h1>
+          <p>
+            I write sometimes about design, frontend development, learning and
+            life.
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./img/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <h1>Web Performance: The Problems</h1>
+                </a>
+                <span>28 March,2020</span>
+                <p>
+                  We’ve learnt already in the first part of this web performance
+                  series why performance is important and should be budgeted for
+                  at every stage of product development, what benefits it holds
+                  for businesses and products, and the negatives of poor
+                  performance. Now, let’s talk about the problems of web
+                  performance; what makes sites slow.
                 </p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./img/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Web Performance: The Problems
-                                </h1>
-                            </a>
-                            <span>28 March,2020</span>
-                            <p>We’ve learnt already in the first part of this web performance series why performance is important and should be budgeted for at every stage of product development, what benefits it holds for businesses and products, and the negatives of poor performance. Now, let’s talk about the problems of web performance; what makes sites slow.</p>
-                            <a class="read-more" href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./img/article-ph-2.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>What makes sites slow?
-                                </h1>
-                            </a>
-                            <span>20 April,2021</span>
-                            <p>Really, the user and the developer are the two main parties involved in this discussion; all other factors that impact web performance like the network from which the site is accessed, the hardware specs of the device, and the software fall under the user factor. Same way, developers are responsible for whatever impacts performance on the tech part of it.</p>
-                            <a href="">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="./img/article-ph-3.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">
-                                <h1>Web Performance: The big Picture
-                                </h1>
-                            </a>
-                            <span>10 May,2022</span>
-                            <p>As the web platform continues to evolve very quickly, new technologies and development techniques spring up even more rapidly. It has become alarming how many slow sites are on the web today, one of the reasons being the drastic shift of the web from a document-centric platform to a much more dynamic application platform.</p>
-                            <a href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
+                <a class="read-more" href="">Read More</a>
+              </div>
             </div>
-        </section>
-    
-        <!-- --------------------------------------------Contact Us----------------------- -->
-        <!-- ------------------------------------------------------------------------------- -->
-        <section class="contact">
-            <div class="container">
-                <h1 class="section-heading">Contact<span>Us</span></h1>
-                <p>Get in touch with me</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <img src="./img/phone-2.svg" alt="">
-                        <h2>Call us on</h2>
-                        <h6>+879 382 3394</h6>
-                    </div>
-                    <div class="card">
-                        <img src="./img/msg.svg" alt="">
-                        <h2>Email Us at</h2>
-                        <h6>ashutoshnaik360@gmail.com</h6>
-                    </div>
-                    <div class="card">
-                        <img src="./img/map.svg" alt="">
-                        <h2>Visit office</h2>
-                        <h6>Wardha,India</h6>
-                    </div>
-                </div>
-                <!-- -----------Form area-------------- -->
-                <form action="#">
-                    <div class="input-wrap">
-                        <input type="text" placeholder="Your Name*">
-                        <input type="email" placeholder="Your Email*">
-                    </div>
-                    <div class="input-wrap-2">
-                        <input type="text" placeholder="Your Subject*">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message*"></textarea>
-                    </div>
-                    <div class="btn-wrapper">
-                        <button class="btn btn-primary">Send Message</button>
-                    </div>
-                </form>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./img/article-ph-2.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <h1>What makes sites slow?</h1>
+                </a>
+                <span>20 April,2021</span>
+                <p>
+                  Really, the user and the developer are the two main parties
+                  involved in this discussion; all other factors that impact web
+                  performance like the network from which the site is accessed,
+                  the hardware specs of the device, and the software fall under
+                  the user factor. Same way, developers are responsible for
+                  whatever impacts performance on the tech part of it.
+                </p>
+                <a href="">Read More</a>
+              </div>
             </div>
-        </section>
-        <footer>
-            <img class="footer-logo" src="./img/logo.svg" alt="">
-            <div class="footer-social">
-                <a href="https://www.instagram.com/_ashutosh_naik/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://twitter.com/ashutoshnaik60" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                <a href=""><i class="fa-brands fa-snapchat"></i></a>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./img/article-ph-3.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <h1>Web Performance: The big Picture</h1>
+                </a>
+                <span>10 May,2022</span>
+                <p>
+                  As the web platform continues to evolve very quickly, new
+                  technologies and development techniques spring up even more
+                  rapidly. It has become alarming how many slow sites are on the
+                  web today, one of the reasons being the drastic shift of the
+                  web from a document-centric platform to a much more dynamic
+                  application platform.
+                </p>
+                <a href="">Read More</a>
+              </div>
             </div>
-    
-        </footer>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------------------------------------------Contact Us----------------------- -->
+      <!-- ------------------------------------------------------------------------------- -->
+      <section class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact<span>Us</span></h1>
+          <p>Get in touch with me</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./img/phone-2.svg" alt="" />
+              <h2>Call us on</h2>
+              <h6>+879 382 3394</h6>
+            </div>
+            <div class="card">
+              <img src="./img/msg.svg" alt="" />
+              <h2>Email Us at</h2>
+              <h6>ashutoshnaik360@gmail.com</h6>
+            </div>
+            <div class="card">
+              <img src="./img/map.svg" alt="" />
+              <h2>Visit office</h2>
+              <h6>Wardha,India</h6>
+            </div>
+          </div>
+          <!-- -----------Form area-------------- -->
+          <form action="#">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name*" />
+              <input type="email" placeholder="Your Email*" />
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your Subject*" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message*"
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <img class="footer-logo" src="./img/logo.svg" alt="" />
+        <div class="footer-social">
+          <a href="https://www.instagram.com/_ashutosh_naik/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/ashutoshnaik60" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-pinterest"></i></a>
+          <a href=""><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+      </footer>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
